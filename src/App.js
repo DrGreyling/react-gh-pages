@@ -840,7 +840,7 @@ if (currentScreen === 'login') {
     <div className="max-w-md mx-auto mt-20 p-6 bg-white rounded-lg shadow-md">
       <div className="flex justify-center mb-6">
         <img 
-          src="/logo.gif" 
+          src="/public/logo.gif" 
           alt="Company Logo" 
           className="h-16 w-auto"
         />
