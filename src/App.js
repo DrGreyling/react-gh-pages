@@ -628,6 +628,8 @@ const EnhancedInsightsQuiz = () => {
           color: "Earth Green",
           explanation: "Earth Green ensures the transformation aligns with values and supports people through the emotional aspects of change."
         },
+      ]
+    },
         // Conflict Negotiation Scenarios
         {
           scenario: "Two team members come to you with conflicting ideas about a project direction. How would each color approach resolving this conflict?",
@@ -751,12 +753,10 @@ const EnhancedInsightsQuiz = () => {
               text: "I would present a comprehensive analysis of our compensation structure, benchmark data, and develop a systematic framework for addressing inequities.",
               color: "Cool Blue",
               explanation: "Cool Blue approaches sensitive issues with detailed analysis, relies on objective data, and develops systematic solutions to complex problems."
-            }
+            },
           ]
-        }
-        ]
-      }
-    ]
+        },
+      ]
   })
 
   // Learning content for each color
@@ -1526,10 +1526,10 @@ if (currentScreen === 'login') {
                         : 'border border-gray-200 hover:border-indigo-200'
                     }`}
                   >
-                    <h3 className="font-medium">Mixed Colors (Beta)</h3>
+                    <h3 className="font-medium">Mixed Colors</h3>
                     <p className="text-sm text-gray-600 mt-1">Identify dual energies</p>
                   </button>
-                  <button
+                  {/* <button
                     onClick={() => setGameMode("scenario")}
                     className={`p-3 text-left rounded-lg ${
                       gameMode === "scenario" 
@@ -1539,7 +1539,7 @@ if (currentScreen === 'login') {
                   >
                     <h3 className="font-medium">Scenarios (Beta)</h3>
                     <p className="text-sm text-gray-600 mt-1">Real-world situations</p>
-                  </button>
+                  </button> */}
                 </div>
               </div>
 
